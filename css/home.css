@@ -1,0 +1,15 @@
+.container-fluid {
+  padding: 0;
+}
+.index-section {
+  margin: 0; padding: 0;
+  background-image: url('../img/esyw/index-section-img-1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+}
+
+.contents-wrapper {
+  height: 2048px;
+  font-size: 30px;
+}
