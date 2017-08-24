@@ -31,8 +31,8 @@ $(document).ready(function() {
   }
 
   function onScrollWindow() {
-    scrollX = window.scrollX;
-    scrollY = window.scrollY;
+    scrollX = window.pageXOffset;
+    scrollY = window.pageYOffset;
 
     fadeOutTitle();
   }
