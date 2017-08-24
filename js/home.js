@@ -1,18 +1,38 @@
 $(document).ready(function() {
   var $indexSection = $('.index-section');
-  var screenWidth, screenHeight;
+  var screenWidth = $(window).width(), screenHeight = $(window).height();
+  var scrollX = window.scrollX, scrollY = window.scrollY;
 
-  function adjust_screen() {
-    screenWidth = $(window).width();
-    screenHeight = $(window).height();
-    var docHeight = $(document).height();
-    console.log(screenHeight + " " + docHeight);
+  function adjustIndexSection() {
     $indexSection.css('background-size', screenWidth);
     $indexSection.css('height', screenWidth * 720 / 1080);
   }
 
+  function fixIndexSection() {
+    var sectionHeight = $indexSection.height();
+
+    if (scrollY <= sectionHeight) {
+      $indexSection.css('background-position-y', scrollY);
+    }
+  }
+
+  function onResizeWindow() {
+    screenWidth = $(window).width();
+    screenHeight = $(window).height();
+
+    adjustIndexSection();
+  }
+
+  function onScrollWindow() {
+    scrollX = window.scrollX;
+    scrollY = window.scrollY;
+
+    fixIndexSection();
+  }
+
   (function init() {
-    adjust_screen();
-    $(window).resize(adjust_screen);
+    adjustIndexSection();
+    $(window).on('resize', onResizeWindow);
+    $(window).on('scroll', onScrollWindow);
   })();
 });
