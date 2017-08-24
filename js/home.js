@@ -1,5 +1,6 @@
 $(document).ready(function() {
   var $indexSection = $('.index-section');
+  var $indexTitle = $('.index-title');
   var screenWidth = $(window).width(), screenHeight = $(window).height();
   var scrollX = window.scrollX, scrollY = window.scrollY;
 
@@ -13,6 +14,8 @@ $(document).ready(function() {
 
     if (scrollY <= sectionHeight) {
       $indexSection.css('background-position-y', scrollY);
+      if (scrollY <= sectionHeight - $indexTitle.height() - 10)
+        $indexTitle.css('top', scrollY+10);
     }
   }
 
