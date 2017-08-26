@@ -5,40 +5,33 @@ $(document).ready(function() {
   var screenWidth = $(window).width(), screenHeight = $(window).height();
   var scrollX = window.scrollX, scrollY = window.scrollY;
   var indexFadedOut = false;
+  //var indexBgHeight = screenWidth * 720 / 1080;
 
-  function adjustIndexSection() {
-    $indexSection.css('background-size', screenWidth);
-    $indexSection.css('height', screenWidth * 720 / 1080);
-    $indexSection.css('width', screenWidth);
-    $contentsWrapper.css('margin-top', $indexSection.height());
-  }
-
-  function fadeOutTitle() {
-    if (indexFadedOut && scrollY < ($indexSection.height() - $indexTitle.height())) {
-      indexFadedOut = false;
-      $indexTitle.fadeIn('fast', function() { $indexTitle.show(); });
-    } else if (scrollY > $indexSection.height() - $indexTitle.height()){
-      indexFadedOut = true;
-      $indexTitle.fadeOut('fast', function() { $indexTitle.hide(); });
+  function parallaxIndexBg() {
+    var max = 50;
+    var shift = parseInt(scrollY * 100/ $indexSection.height());
+    console.log(shift);
+    if (shift <= max) {
+      $indexSection.css('background-position-y', -shift + '%');
     }
+  }
+  function parallaxIndex() {
+    parallaxIndexBg();
   }
 
   function onResizeWindow() {
     screenWidth = $(window).width();
     screenHeight = $(window).height();
-
-    adjustIndexSection();
   }
 
   function onScrollWindow() {
     scrollX = window.pageXOffset;
     scrollY = window.pageYOffset;
 
-    fadeOutTitle();
+    parallaxIndex();
   }
 
   (function init() {
-    adjustIndexSection();
     $(window).on('resize', onResizeWindow);
     $(window).on('scroll', onScrollWindow);
   })();

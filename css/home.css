@@ -6,16 +6,17 @@
     margin: 0; padding: 0;
     background-image: url('../img/esyw/index-section-img-1.jpg');
     background-repeat: no-repeat;
-    z-index: -1;
-    position: fixed;
+    background-size: 100%;
+    background-position: 70% top;
+    width: 100vw; height: 50vw;
   }
 
   .index-title {
     font-family: cursive,나눔고딕;
     text-align: center;
     position: relative;
-    font-size: 5vw;
-    top: 1vh;
+    font-size: 4vw;
+    top: 30%;
   }
 
   .contents-wrapper {
