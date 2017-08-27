@@ -2,27 +2,43 @@
   .container-fluid {
     padding: 0;
   }
-  .index-section {
+
+  .section-index {
     margin: 0; padding: 0;
-    background-image: url('../img/esyw/index-section-img-1.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 70% top;
+    background-position: 70% center;
     width: 100vw; height: 50vw;
   }
 
-  .index-title {
+  .content {
+    width: 100vw; height: 50vw;
+
+    font-size: 2vmin;
+    text-align: center;
+    display: table;
+  }
+
+  .content > p {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  #index-section {
+    background-image: url('../img/esyw/index-section-img-1.jpg');
+  }
+  #index-title {
     font-family: cursive,나눔고딕;
     text-align: center;
     position: relative;
     font-size: 4vw;
-    top: 30%;
+    top: 20%;
   }
 
-  .contents-wrapper {
-    height: 2048px;
-    font-size: 30px;
-    background-color: white;
-    z-index: 0;
+  #groom-section {
+    background-image: url('../img/esyw/groom.jpg');
+  }
+  #bride-section {
+    background-image: url('../img/esyw/bride.jpg');
   }
 }

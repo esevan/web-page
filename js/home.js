@@ -1,7 +1,6 @@
 $(document).ready(function() {
-  var $indexSection = $('.index-section');
-  var $indexTitle = $('.index-title');
-  var $contentsWrapper = $('.contents-wrapper');
+  var $indexSection = $('#index-section');
+  var $indexTitle = $('#index-title');
   var screenWidth = $(window).width(), screenHeight = $(window).height();
   var scrollX = window.scrollX, scrollY = window.scrollY;
   var indexFadedOut = false;
@@ -10,9 +9,8 @@ $(document).ready(function() {
   function parallaxIndexBg() {
     var max = 50;
     var shift = parseInt(scrollY * 100/ $indexSection.height());
-    console.log(shift);
     if (shift <= max) {
-      $indexSection.css('background-position-y', -shift + '%');
+      $indexSection.css('background-position-y', (50-shift) + '%');
     }
   }
   function parallaxIndex() {
