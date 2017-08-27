@@ -24,8 +24,24 @@
     vertical-align: middle;
   }
 
+  .content-galary {
+    overflow: hidden;
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .galary-item {
+    float: left;
+    background-size: auto 25vw;
+    background-repeat: no-repeat;
+    width: 25vw; height: 25vw;
+    margin: 2.5vw;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+  }
+
   #index-section {
-    background-image: url('../img/esyw/index-section-img-1.jpg');
+    background-image: url('../img/esyw/index-section.jpg');
   }
   #index-title {
     font-family: cursive,나눔고딕;
@@ -40,5 +56,65 @@
   }
   #bride-section {
     background-image: url('../img/esyw/bride.jpg');
+  }
+
+  #galary-index {
+    background-image: url('../img/esyw/galary-index.jpg');
+    background-position: center top;
+  }
+
+  #galary-item1 {
+    background-image: url('../img/esyw/galary-1.jpg');
+    background-position: center;
+  }
+  #galary-item2 {
+    background-image: url('../img/esyw/galary-2.jpg');
+    background-position: center;
+  }
+  #galary-item3 {
+    background-image: url('../img/esyw/galary-3.jpg');
+    background-position: center;
+  }
+  #galary-item4 {
+    background-image: url('../img/esyw/galary-4.jpg');
+    background-position: center;
+  }
+  #galary-item5 {
+    background-image: url('../img/esyw/galary-5.jpg');
+    background-position: center top;
+  }
+  #galary-item6 {
+    background-image: url('../img/esyw/galary-6.jpg');
+    background-position: right center;
+  }
+  #galary-item7 {
+    background-image: url('../img/esyw/galary-7.jpg');
+    background-position: center top;
+    background-size: 25vw auto;
+  }
+  #galary-item8 {
+    background-image: url('../img/esyw/galary-8.jpg');
+    background-position: center bottom;
+    background-size: 25vw auto;
+  }
+  #galary-item9 {
+    background-image: url('../img/esyw/galary-9.jpg');
+    background-position: center bottom;
+    background-size: 25vw auto;
+  }
+  #galary-item10 {
+    background-image: url('../img/esyw/galary-10.jpg');
+    background-position: center bottom;
+    background-size: 25vw auto;
+  }
+  #galary-item11 {
+    background-image: url('../img/esyw/galary-11.jpg');
+    background-position: center bottom;
+    background-size: 25vw auto;
+  }
+  #galary-item12 {
+    background-image: url('../img/esyw/galary-12.jpg');
+    background-position: center;
+    background-size: 25vw auto;
   }
 }
