@@ -22,6 +22,7 @@
   .content > p {
     display: table-cell;
     vertical-align: middle;
+    line-height: 5vmin;
   }
 
   .content-galary {
@@ -116,5 +117,9 @@
     background-image: url('../img/esyw/galary-12.jpg');
     background-position: center;
     background-size: 25vw auto;
+  }
+  #map-index {
+    background-image: url('../img/esyw/map-index.png');
+    background-position: center bottom;
   }
 }
