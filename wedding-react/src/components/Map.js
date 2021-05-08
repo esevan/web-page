@@ -13,7 +13,7 @@ const address = {
 
 const infoWindowContent = `
 <div class="iw_inner">
-<p style="padding: 0 5vw">${address.title}</p>
+<p style="padding: 0 5vw; font-size: 0.7em">${address.title}</p>
 </div>
 `;
 
@@ -33,7 +33,8 @@ export const Map = () => {
 
         const infowindow = new navermaps.InfoWindow({
             content: infoWindowContent,
-            maxWidth: 180,
+            minWidth: '40vw',
+            maxWidth: '40vw',
             borderWidth: 1,
             borderColor: "#444"
         })
