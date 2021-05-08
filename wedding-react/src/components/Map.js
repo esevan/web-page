@@ -13,7 +13,7 @@ const address = {
 
 const infoWindowContent = `
 <div class="iw_inner">
-<p style="padding: 0 5vw; font-size: 0.7em">${address.title}</p>
+<p style="padding: 0 1vw; font-size: 13px;">${address.title}</p>
 </div>
 `;
 
@@ -33,8 +33,6 @@ export const Map = () => {
 
         const infowindow = new navermaps.InfoWindow({
             content: infoWindowContent,
-            minWidth: '40vw',
-            maxWidth: '40vw',
             borderWidth: 1,
             borderColor: "#444"
         })
@@ -53,7 +51,7 @@ export const Map = () => {
             }}>{address.title}</p>
             <p id='address-elem'
                style={{textAlign: 'left', paddingLeft: '6vw', whiteSpace: 'pre-line'}}>{address.detail}
-                <button style={{border: 'transparent', backgroundColor: 'transparent'}} className={'btn'}
+                <button style={{border: 'transparent', backgroundColor: 'transparent'}} className={'btn'} onClick={() => alert("Copied")}
                         data-clipboard-text={address.detail}>복사하기 <BsClipboard/></button>
             </p>
             <div id={'naver-map'} style={{height: '35vh'}}/>
