@@ -4,6 +4,7 @@ import indexSection from '../img/index-section.jpg';
 import {Parallax} from "react-parallax";
 import {InvitationParagraph} from "./InvitationParagraph";
 import {WeddingGallery} from "./WeddingGallery";
+import {Map} from "./Map";
 
 const InlineStyle = () => (
     <style>
@@ -16,12 +17,12 @@ const InlineStyle = () => (
                 font-weight: 500;
             }
             .top-image {
-                height: 300px;
-                width: 100%;
+                height: 40vh;
+                width: 100vw !important;
             }
             .wedding-announce {
                 color: #666;
-                margin: 20% 0 20% 0;
+                margin: 0 0 10vh 0;
                 font-size: 1.0em;
             }
             .wedding-text {
@@ -39,16 +40,18 @@ const InlineStyle = () => (
 const Content = () => {
 
     return (
-        <div style={{'paddingTop': '5%', 'paddingBottom': '20%'}}>
+        <div style={{'paddingTop': '4vh', 'paddingBottom': '4vh'}}>
             <InlineStyle/>
             <Header as={'h3'} className={'wedding-text'} style={{'text-decoration': 'underline'}}>SAVE THE DATE</Header>
-            <Container text style={{'margin': '10%'}}>
+            <Container text style={{'margin': '8vh'}}>
                 <Header as={'h1'} className={'date'}>2021</Header>
                 <Header as={'h1'} className={'date'} style={{'font-size': '1.8em'}}>07.24</Header>
             </Container>
 
-            <Parallax className={'top-image'} bgImage={indexSection} strength={300}>
-            </Parallax>
+            <Container>
+                <Parallax className={'top-image'} bgImage={indexSection} strength={20}>
+                </Parallax>
+            </Container>
 
             <Container text className={'wedding-announce'}>
                 <Header as={'h2'} className={'couple-name'}>서경민 & 이선우</Header>
@@ -58,7 +61,12 @@ const Content = () => {
                         style={{'font-size': '1em', 'color': 'black'}}>포천시민교회</Header>
             </Container>
             <InvitationParagraph/>
-            <WeddingGallery/>
+            <Container text style={{marginBottom: '10vh'}}>
+                <WeddingGallery/>
+            </Container>
+            <Container text>
+                <Map/>
+            </Container>
         </div>
     );
 }

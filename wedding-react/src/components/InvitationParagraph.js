@@ -8,7 +8,7 @@ const InlineStyle = () => (
                 font-size: 0.9em;
                 background: #f7f7f7;
                 color: #555;
-                padding: 10% 0;
+                padding: 8vh 0;
                 font-weight: 500;
             }
             .invitation-paragraph > p {
@@ -21,7 +21,7 @@ const InlineStyle = () => (
 
 export const InvitationParagraph = () => (
     <>
-        <InlineStyle />
+        <InlineStyle/>
         <Container text className={'invitation-paragraph'}>
             <p>{
                 '하나님의 사랑으로 만난 두 사람이\n'
