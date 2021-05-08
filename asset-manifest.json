@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/web-page/static/css/main.10f8c9d4.chunk.css",
+    "main.js": "/web-page/static/js/main.8c89a67f.chunk.js",
+    "main.js.map": "/web-page/static/js/main.8c89a67f.chunk.js.map",
+    "runtime-main.js": "/web-page/static/js/runtime-main.ff6a5ff6.js",
+    "runtime-main.js.map": "/web-page/static/js/runtime-main.ff6a5ff6.js.map",
+    "static/css/2.ea11fe1c.chunk.css": "/web-page/static/css/2.ea11fe1c.chunk.css",
+    "static/js/2.c0694af9.chunk.js": "/web-page/static/js/2.c0694af9.chunk.js",
+    "static/js/2.c0694af9.chunk.js.map": "/web-page/static/js/2.c0694af9.chunk.js.map",
+    "static/js/3.16b8f336.chunk.js": "/web-page/static/js/3.16b8f336.chunk.js",
+    "static/js/3.16b8f336.chunk.js.map": "/web-page/static/js/3.16b8f336.chunk.js.map",
+    "index.html": "/web-page/index.html",
+    "static/css/2.ea11fe1c.chunk.css.map": "/web-page/static/css/2.ea11fe1c.chunk.css.map",
+    "static/css/main.10f8c9d4.chunk.css.map": "/web-page/static/css/main.10f8c9d4.chunk.css.map",
+    "static/js/2.c0694af9.chunk.js.LICENSE.txt": "/web-page/static/js/2.c0694af9.chunk.js.LICENSE.txt",
+    "static/media/gallery-1.da8fbe9b.jpg": "/web-page/static/media/gallery-1.da8fbe9b.jpg",
+    "static/media/gallery-2.98da90d8.jpg": "/web-page/static/media/gallery-2.98da90d8.jpg",
+    "static/media/gallery-3.d5508a3a.jpg": "/web-page/static/media/gallery-3.d5508a3a.jpg",
+    "static/media/gallery-4.f8ef8764.jpg": "/web-page/static/media/gallery-4.f8ef8764.jpg",
+    "static/media/gallery-5.67e26b2f.jpg": "/web-page/static/media/gallery-5.67e26b2f.jpg",
+    "static/media/gallery-6.4624c672.jpg": "/web-page/static/media/gallery-6.4624c672.jpg",
+    "static/media/gallery-7.eb8e9cba.jpg": "/web-page/static/media/gallery-7.eb8e9cba.jpg",
+    "static/media/gallery-8.5167ba4d.jpg": "/web-page/static/media/gallery-8.5167ba4d.jpg",
+    "static/media/gallery-9.a5c6ab62.jpg": "/web-page/static/media/gallery-9.a5c6ab62.jpg",
+    "static/media/index-section.afde3d16.jpg": "/web-page/static/media/index-section.afde3d16.jpg",
+    "static/media/thumbnail-8.0ad83fbc.jpg": "/web-page/static/media/thumbnail-8.0ad83fbc.jpg",
+    "static/media/thumbnail-9.d3c7d744.jpg": "/web-page/static/media/thumbnail-9.d3c7d744.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff6a5ff6.js",
+    "static/css/2.ea11fe1c.chunk.css",
+    "static/js/2.c0694af9.chunk.js",
+    "static/css/main.10f8c9d4.chunk.css",
+    "static/js/main.8c89a67f.chunk.js"
+  ]
+}
