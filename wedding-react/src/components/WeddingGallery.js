@@ -1,6 +1,5 @@
 import React from 'react';
 import 'react-image-gallery/styles/css/image-gallery.css';
-import {Container} from "semantic-ui-react";
 import ImageGallery from "react-image-gallery";
 import Gallery1 from '../img/gallery-1.jpg';
 import Gallery2 from '../img/gallery-2.jpg';
@@ -56,6 +55,9 @@ const images = [
 ]
 
 export const WeddingGallery = () => (
-    <ImageGallery style={{height: "40vh"}} items={images} thumbnailPosition={'bottom'} showNav={false} autoPlay={true}
-                  useBrowserFullscreen={false}/>
+    <>
+        <ImageGallery style={{height: "40vh"}} items={images} thumbnailPosition={'bottom'} showNav={false}
+                      autoPlay={true}
+                      useBrowserFullscreen={false}/>
+    </>
 );

@@ -1,17 +1,13 @@
 import './App.css';
 import Content from './components/Content.js';
-import {Grid} from "semantic-ui-react";
+import 'semantic-ui-css/semantic.min.css'
 
 function App() {
-  return (
-    <div className="App">
-      <Grid>
-        <Grid.Row>
-            <Content />
-        </Grid.Row>
-      </Grid>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Content/>
+        </div>
+    );
 }
 
 export default App;

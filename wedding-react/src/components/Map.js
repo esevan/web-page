@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {Header} from "semantic-ui-react";
-import {BsClipboard} from "react-icons/all";
 import ClipboardJS from "clipboard";
+import {Clipboard} from "./Clipbaord";
 
 const address = {
     title: '포천시민교회',
@@ -42,34 +42,36 @@ export const Map = () => {
 
     return (
         <>
-            <Header as={"h3"} style={{textAlign: 'left', fontWeight: 600, paddingLeft: '4vw'}}>찾아 오시는 길</Header>
-            <p id='address-elem' style={{
-                textAlign: 'left',
-                fontWeight: 600,
-                paddingLeft: '6vw',
-                whiteSpace: 'pre-line'
-            }}>{address.title}</p>
-            <p id='address-elem'
-               style={{textAlign: 'left', paddingLeft: '6vw', whiteSpace: 'pre-line'}}>{address.detail}
-                <button style={{border: 'transparent', backgroundColor: 'transparent'}} className={'btn'} onClick={() => alert("주소가 복사되었습니다.")}
-                        data-clipboard-text={address.detail}>복사하기 <BsClipboard/></button>
-            </p>
-            <div id={'naver-map'} style={{height: '35vh'}}/>
-            <div style={{
-                width: '100vw',
-                height: '6vh',
-                backgroundColor: '#04cf5c',
-            }}>
-                <a
-                    style={{
-                        color: 'white',
-                        lineHeight: '6vh',
-                        fontWeight: 600,
-                        textDecoration: 'none'
-                    }}
-                    href={address.naverMapLink}
-                    target={"_blank"}
-                >네이버 지도에서 보기</a>
+            <div>
+                <Header as={"h3"} style={{textAlign: 'left', fontWeight: 600, paddingLeft: '4vw'}}>찾아 오시는 길</Header>
+                <p id='address-elem' style={{
+                    textAlign: 'left',
+                    fontWeight: 600,
+                    paddingLeft: '6vw',
+                    whiteSpace: 'pre-line'
+                }}>{address.title}</p>
+                <p id='address-elem'
+                   style={{textAlign: 'left', paddingLeft: '6vw', whiteSpace: 'pre-line'}}>{address.detail}
+                    <Clipboard stringToCopy={address.detail}/>
+                </p>
+                <div id={'naver-map'} style={{height: '35vh'}}/>
+                <div style={{
+                    width: '100vw',
+                    height: '6vh',
+                    backgroundColor: '#04cf5c',
+                }}>
+                    <a
+                        style={{
+                            color: 'white',
+                            lineHeight: '6vh',
+                            fontWeight: 600,
+                            textDecoration: 'none'
+                        }}
+                        href={address.naverMapLink}
+                        target={"_blank"}
+                        rel={'noreferrer'}
+                    >네이버 지도에서 보기</a>
+                </div>
             </div>
         </>
     );
