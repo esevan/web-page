@@ -1,6 +1,8 @@
+@import url("./styles/css/font-face.css");
+
 body {
   margin: 0;
-  font-family: 'Nanum Myeongjo', "맑은 고딕", "Malgun Gothic", "나눔고딕", "NanumGothic", "NanumGothicWEB", "돋움", 'Dotum', "굴림", 'Gulim', 'sans-serif';
+  font-family: 'Nanum Myeongjo';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -8,8 +10,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-@font-face {
-  font-family: 'Nanum Myeongjo', "맑은 고딕", "Malgun Gothic", "나눔고딕", "NanumGothic", "NanumGothicWEB", "돋움", 'Dotum', "굴림", 'Gulim', 'sans-serif';
 }

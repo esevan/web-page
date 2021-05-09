@@ -42,10 +42,10 @@ const Content = () => {
     return (
         <div style={{'paddingTop': '4vh', 'paddingBottom': '4vh'}}>
             <InlineStyle/>
-            <Header as={'h3'} className={'wedding-text'} style={{'text-decoration': 'underline'}}>SAVE THE DATE</Header>
+            <Header as={'h3'} className={'wedding-text'} style={{textDecoration: 'underline'}}>SAVE THE DATE</Header>
             <Container text style={{'margin': '8vh'}}>
                 <Header as={'h1'} className={'date'}>2021</Header>
-                <Header as={'h1'} className={'date'} style={{'font-size': '1.8em'}}>07.24</Header>
+                <Header as={'h1'} className={'date'} style={{fontSize: '1.8em'}}>07.24</Header>
             </Container>
 
             <Container>
@@ -55,10 +55,10 @@ const Content = () => {
 
             <Container text className={'wedding-announce'}>
                 <Header as={'h2'} className={'couple-name'}>서경민 & 이선우</Header>
-                <Header as={'h3'} className={'wedding-text'} style={{'font-size': '1em', 'color': 'black'}}>2021. 07.
+                <Header as={'h3'} className={'wedding-text'} style={{fontSize: '1em', 'color': 'black'}}>2021. 07.
                     24. SAT</Header>
                 <Header as={'h3'} className={'wedding-text'}
-                        style={{'font-size': '1em', 'color': 'black'}}>포천시민교회</Header>
+                        style={{fontSize: '1em', 'color': 'black'}}>포천시민교회</Header>
             </Container>
             <InvitationParagraph/>
             <Container text style={{marginBottom: '10vh'}}>
