@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/web-page/static/css/main.10f8c9d4.chunk.css",
-    "main.js": "/web-page/static/js/main.dfd4c249.chunk.js",
-    "main.js.map": "/web-page/static/js/main.dfd4c249.chunk.js.map",
+    "main.css": "/web-page/static/css/main.6c3dad2a.chunk.css",
+    "main.js": "/web-page/static/js/main.7e37fd9c.chunk.js",
+    "main.js.map": "/web-page/static/js/main.7e37fd9c.chunk.js.map",
     "runtime-main.js": "/web-page/static/js/runtime-main.ff6a5ff6.js",
     "runtime-main.js.map": "/web-page/static/js/runtime-main.ff6a5ff6.js.map",
     "static/css/2.ea11fe1c.chunk.css": "/web-page/static/css/2.ea11fe1c.chunk.css",
@@ -12,8 +12,9 @@
     "static/js/3.16b8f336.chunk.js.map": "/web-page/static/js/3.16b8f336.chunk.js.map",
     "index.html": "/web-page/index.html",
     "static/css/2.ea11fe1c.chunk.css.map": "/web-page/static/css/2.ea11fe1c.chunk.css.map",
-    "static/css/main.10f8c9d4.chunk.css.map": "/web-page/static/css/main.10f8c9d4.chunk.css.map",
+    "static/css/main.6c3dad2a.chunk.css.map": "/web-page/static/css/main.6c3dad2a.chunk.css.map",
     "static/js/2.c0694af9.chunk.js.LICENSE.txt": "/web-page/static/js/2.c0694af9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/web-page/static/media/NanumMyeongjo-Regular.9f891674.ttf",
     "static/media/gallery-1.da8fbe9b.jpg": "/web-page/static/media/gallery-1.da8fbe9b.jpg",
     "static/media/gallery-2.98da90d8.jpg": "/web-page/static/media/gallery-2.98da90d8.jpg",
     "static/media/gallery-3.d5508a3a.jpg": "/web-page/static/media/gallery-3.d5508a3a.jpg",
@@ -31,7 +32,7 @@
     "static/js/runtime-main.ff6a5ff6.js",
     "static/css/2.ea11fe1c.chunk.css",
     "static/js/2.c0694af9.chunk.js",
-    "static/css/main.10f8c9d4.chunk.css",
-    "static/js/main.dfd4c249.chunk.js"
+    "static/css/main.6c3dad2a.chunk.css",
+    "static/js/main.7e37fd9c.chunk.js"
   ]
 }
