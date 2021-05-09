@@ -6,6 +6,7 @@ import {InvitationParagraph} from "./InvitationParagraph";
 import {WeddingGallery} from "./WeddingGallery";
 import {Map} from "./Map";
 import {Contact} from "./Contact";
+import {Account} from "./Account";
 
 const InlineStyle = () => (
     <style>
@@ -74,6 +75,14 @@ const Content = () => {
             <br />
             <br />
             <Map/>
+            <br />
+            <br />
+            <br />
+            <Account/>
+            <br />
+            <br />
+            <br />
+
         </div>
     );
 }

@@ -39,7 +39,7 @@ export const Contact = () => (
         <Header as={'h3'}>혼주님께 연락하기</Header>
         <Grid columns={2} relaxed={'very'} style={{height: '30vh', margin: '0', padding: '0'}} verticalAlign={'middle'}>
             <Grid.Column>
-                <p>신랑</p>
+                <p>신랑측 혼주</p>
                 <p>아버지 서정국</p>
                 <p><PhoneSms phoneNumber={'010-4559-0191'}/></p>
                 <p>어머니 박인경</p>
@@ -49,7 +49,7 @@ export const Contact = () => (
                 <p>신부측 혼주</p>
                 <p>아버지 이명철</p>
                 <p><PhoneSms phoneNumber={'010-4723-1528'}/></p>
-                <p>아머니 오유순</p>
+                <p>어머니 오유순</p>
                 <p><PhoneSms phoneNumber={'010-4724-1528'}/></p>
             </Grid.Column>
         </Grid>
