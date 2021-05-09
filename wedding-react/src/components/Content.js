@@ -64,7 +64,7 @@ const Content = () => {
             <Container text className={'wedding-announce'}>
                 <Header as={'h2'} className={'couple-name'}>서경민 & 이선우</Header>
                 <Header as={'h3'} className={'wedding-text'} style={{fontSize: '1em', 'color': 'black'}}>2021. 07.
-                    24. SAT</Header>
+                    24. 토요일 오후 2시</Header>
                 <Header as={'h3'} className={'wedding-text'}
                         style={{fontSize: '1em', 'color': 'black'}}>포천시민교회</Header>
             </Container>
