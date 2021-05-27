@@ -38,13 +38,13 @@ export const Account = () => {
             <Divider horizontal>축하의 마음 전하기</Divider>
             <br/>
             <AccountLine
-                account={'3333040799660'} bank={'카카오뱅크'} owner={'서경민'} role={'신랑'}
-                secondAccount={'613-01-0729751'} secondBank={'국민은행'} secondOwner={'서정국'}
+                secondAccount={'3333040799660'} secondBank={'카카오뱅크'} secondOwner={'서경민'} role={'신랑'}
+                account={'613-01-0729751'} bank={'국민은행'} owner={'서정국'}
             />
             <br/>
             <AccountLine
-                account={'3333017776898'} bank={'카카오뱅크'} owner={'이선우'} role={'신부'}
-                secondAccount={'225818-52-045339'} secondBank={'농협'} secondOwner={'오유순'}
+                secondAccount={'3333017776898'} secondBank={'카카오뱅크'} secondOwner={'이선우'} role={'신부'}
+                account={'225818-52-045339'} bank={'농협'} owner={'오유순'}
             />
         </div>
     );
